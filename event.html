@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="h1" class="h1">HTML event </h1>
+    <p>how are you?</p>
+
+    <!--event handler by directly-->
+
+    <button onclick="document.body.style.background='pink'">directly</button>
+    <button onclick="colorChange()">click me</button>
+    <button onclick="specialColor()">Special</button>
+    <button id="lightyellow">lightyellow</button>
+    <button id="goldenrod">goldenrod</button>
+    <button id="hotpink">hotpink</button>
+    <button id="tomato">tomato</button><br>
+
+    <!--commonly used event handler-->
+    <p id="highlighted"></p>
+    <button onclick="highlighted()">by just function</button>
+    <button id="event">by eventListener</button>
+
+    <!--update as input-->
+    <p id="f-name-update"></p>
+    <input type="text" name="" id="first-name">
+    <button id="update-text">update</button>
+    <script src="js/event.js"></script>
+</body>
+
+</html>
